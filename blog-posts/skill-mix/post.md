@@ -1,11 +1,12 @@
 ![Credit: DALLE3 (Stochastic Parrots)](https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png)
+<img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png" alt="Alt text" width="500" height="500">
+
 # Are Language Models Mere Stochastic Parrots? The SkillMix Test says NO.
 ## Author(s): Sanjeev Arora
 
 > This blog post is based on the following recent work:
-> Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models
->
-> Dingli Yu<sup data-lexical-text="true"><span>1</span></sup>, Simran Kaur<sup data-lexical-text="true"><span>1</span></sup>, Arushi Gupta<sup data-lexical-text="true"><span>1</span></sup>, Jonah Brown-Cohen\<sup data-lexical-text="true"><span>2</span></sup>, Anirudh Goyal<sup data-lexical-text="true"><span>2</span></sup>, and Sanjeev Arora<sup data-lexical-text="true"><span>1</span></sup>.
+> [_Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models_](https://arxiv.org/abs/2310.17567)
+> Dingli Yu<sup data-lexical-text="true"><span>1</span></sup>, Simran Kaur<sup data-lexical-text="true"><span>1</span></sup>, Arushi Gupta<sup data-lexical-text="true"><span>1</span></sup>, Jonah Brown-Cohen<sup data-lexical-text="true"><span>2</span></sup>, Anirudh Goyal<sup data-lexical-text="true"><span>2</span></sup>, and Sanjeev Arora<sup data-lexical-text="true"><span>1</span></sup>.
 > 
 > <sup data-lexical-text="true"><span>1</span></sup> Princeton Language and Intelligence (PLI), Princeton University
 > <sup data-lexical-text="true"><span>2</span></sup> Google DeepMind
@@ -39,8 +40,8 @@ This task gets more difficult for humans as _k_ increases. All paper authors sel
 
 So we administered SKILLMIX to various chatbots for _k_ ranging from 2 to 6, and graded the responses using a proprietary model (GPT-4)  as well as an open model (LLaMA2 70B chat). The chatbot is informed that it is helping grade student answers on tests of linguistic capabilities. It is provided a simple grading rubric and is asked to provide justification of its grading. The chatbot’s grading was spot-checked by humans. Please see the paper for details.
 
-![**Figure 1:** Example of SKILLMIX (_k=3_) for three different LLMs. For an interactive demo of SKILLMIX, please visit [this page](https://huggingface.co/spaces/dingliyu/skillmix).](https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/skillmix-example.png)
-
+![skillmix-example-img](https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/skillmix-example.png)
+***Figure 1:** Example of SKILLMIX (_k=3_) for three different LLMs. For an interactive demo of SKILLMIX, please visit [this page](https://huggingface.co/spaces/dingliyu/skillmix).*
 
 
 The example shown in **Figure 1** corresponds to _k_\=3 ( i.e., using 3 named skills) in the context of sewing. The difference in quality of the text is very apparent to humans!
