@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png" alt="tmp" width="25%" />
+    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/example-post/stochastic_parrots.png" alt="tmp" width="25%" />
     <br>
     <em>Cover Photo Caption</em>
 </div>
@@ -23,7 +23,7 @@ Provide a tl;dr
 
 Example image below
 <div align="center">
-    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/skillmix-example.png" alt="tmp" width="80%" />
+    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/example-post/skillmix-example.png" alt="tmp" width="80%" />
     <br>
     <em> <b>Figure 1</b>: Caption <em>
 </div>
