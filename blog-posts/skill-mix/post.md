@@ -1,8 +1,14 @@
-![Credit: DALLE3 (Stochastic Parrots)](https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png)
-<img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png" alt="Alt text" width="500" height="500">
+<div align="center">
+    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/stochastic_parrots.png" alt="tmp" width="25%" />
+    <br>
+    <em>Credit: DALLE3 (Stochastic Parrots)</em>
+</div>
+
 
 # Are Language Models Mere Stochastic Parrots? The SkillMix Test says NO.
-## Author(s): Sanjeev Arora
+
+*Author: Sanjeev Arora*
+---
 
 > This blog post is based on the following recent work:
 > [_Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models_](https://arxiv.org/abs/2310.17567)
@@ -40,8 +46,11 @@ This task gets more difficult for humans as _k_ increases. All paper authors sel
 
 So we administered SKILLMIX to various chatbots for _k_ ranging from 2 to 6, and graded the responses using a proprietary model (GPT-4)  as well as an open model (LLaMA2 70B chat). The chatbot is informed that it is helping grade student answers on tests of linguistic capabilities. It is provided a simple grading rubric and is asked to provide justification of its grading. The chatbot’s grading was spot-checked by humans. Please see the paper for details.
 
-![skillmix-example-img](https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/skillmix-example.png)
-***Figure 1:** Example of SKILLMIX (_k=3_) for three different LLMs. For an interactive demo of SKILLMIX, please visit [this page](https://huggingface.co/spaces/dingliyu/skillmix).*
+<div align="center">
+    <img src="https://github.com/simran135/pli-blog-tmp/blob/main/blog-posts/skill-mix/skillmix-example.png" alt="tmp" width="80%" />
+    <br>
+    <em> <b>Figure 1</b>: Example of SKILLMIX (_k=3_) for three different LLMs. For an interactive demo of SKILLMIX, please visit <a href="https://huggingface.co/spaces/dingliyu/skillmix">this page</a>.</em>
+</div>
 
 
 The example shown in **Figure 1** corresponds to _k_\=3 ( i.e., using 3 named skills) in the context of sewing. The difference in quality of the text is very apparent to humans!
