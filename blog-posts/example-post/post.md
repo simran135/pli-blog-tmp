@@ -29,7 +29,7 @@ Example image below
 </div>
 
 
-## Section **
+## Section
 (Feel free to have as many sections as you would like.)
 
 
@@ -43,15 +43,14 @@ e^{i\pi} + 1 = 0
 $$
 
 ### Latex
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+Note: github doesn't render math
 
-Here is some inline math: \( a^2 + b^2 = c^2 \).
+Inline: \( a^2 + b^2 = c^2 \)
 
-Alternatively, you can also do this:
-
-$$a^2 + b^2 = c^2$$
-
-**Theorem 2.1:** \\( a^2 + b^2 = c^2 \\).
+Display: 
+$$
+e^{i\pi} + 1 = 0
+$$
 
 ### Table
 
